@@ -1,0 +1,9 @@
+.idea/
+.vscode/
+README.md
+byc.iml
+node_modules/
+package - Copy.json_bkup
+reports/
+target/
+.git/

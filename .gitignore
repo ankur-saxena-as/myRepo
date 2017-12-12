@@ -1,0 +1,7 @@
+.idea/
+.vscode/
+bdd_byc_framework.iml
+npm-debug.log
+reports/
+target/
+.git/
