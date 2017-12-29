@@ -7,9 +7,12 @@ export let config: Config = {
     // SELENIUM_PROMISE_MANAGER: true,
 
     capabilities: {
-        browserName: 'chrome'
+        browserName: 'chrome',
+        chromeOptions: {
+            args: ['-start-fullscreen'] 
+        }
     },
-    
+    // ['--start-maximized', '--start-fullscreen', '--kiosk']
     directConnect: true,
     ignoreUncaughtExceptions: true,
     framework: 'custom',
@@ -29,5 +32,5 @@ export let config: Config = {
         format: ['pretty'],
         require: ['../../testProXvFb/src/typeScript/test/stepdefinitions/*.ts', '../../testProXvFb/src/resources/main/hooks.ts'],
         tags: '@ProtractorHomePage'
-    }
+    },
 };

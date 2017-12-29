@@ -40,7 +40,7 @@ defineSupportCode(async ({Given, When, Then})=>{
 
     Then(`the user should be navigated to the protractor home page`, async()=>{
         await expect(generalComponentFunc.waitForElementToBeClickable(googleObjects.ProtractorHomePageLogo)).to.be.eventually.true;
-        await expect(googleObjects.ProtractorHomePageLogo.isDisplayed()).to.be.eventually.false;
+        await expect(googleObjects.ProtractorHomePageLogo.isDisplayed()).to.be.eventually.true;
     });
 
 
