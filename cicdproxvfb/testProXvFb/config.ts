@@ -19,7 +19,7 @@ export let config: Config = {
     frameworkPath: require.resolve('protractor-cucumber-framework'),
     specs: ["../../testProXvFb/src/typeScript/test/features/*.feature"],
     baseUrl: 'https://www.google.com/',
-
+    resultJsonOutputFile: "./testResults.json",
     onPrepare: () => {
         browser.ignoreSynchronization= true;
         browser.manage().timeouts().implicitlyWait(10000);

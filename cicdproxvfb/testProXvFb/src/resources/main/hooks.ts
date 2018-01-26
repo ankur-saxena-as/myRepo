@@ -16,6 +16,8 @@ defineSupportCode(function ({ registerHandler, registerListener, After, setDefau
     let htmlReports = process.cwd() + "/reports/html";
     let targetJson = jsonReports + "/cucumber_report.json";
 
+    browser.manage().logs().get('browser')
+
     // let loginComponents: LoginComponents = new LoginComponents();
     let generalCompFuncs: GeneralComponent = new GeneralComponent();
 
@@ -31,6 +33,7 @@ defineSupportCode(function ({ registerHandler, registerListener, After, setDefau
             // screenShot is a base-64 encoded PNG
             world.attach(screenShot, 'image/png');
         }
+       
     });
 
 

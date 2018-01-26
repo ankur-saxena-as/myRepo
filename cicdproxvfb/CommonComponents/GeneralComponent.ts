@@ -1,4 +1,5 @@
 import {browser, protractor, ElementFinder, ExpectedConditions, ElementArrayFinder} from "protractor";
+import { Scenario } from "cucumber";
 import * as json from 'load-json-file';
 import {error, until} from "selenium-webdriver";
 import * as chai from 'chai';
@@ -354,7 +355,8 @@ export class GeneralComponent {
         if(Function!=null){
             // await console.log(Function.name+": "+message);
             await puts(Function.name+": "+message);
-        }
+            
+            }
         else{
             // await console.log(message);
             await puts(message);

@@ -19,6 +19,9 @@ defineSupportCode(async ({Given, When, Then})=>{
     let systemBillingStartDate: string = null;
     let newSystemBillingStartData: string = null;
 
+    process.env.TEST_ENV="qa";
+    await console.log(process.env.TEST_ENV);
+
     Given(`User navigates to the Google page`, async()=>{
         await expect(generalComponentFunc.waitForElementToBeClickable(googleObjects.GoogleSearchField)).to.be.eventually.fulfilled;
         await expect(googleObjects.GoogleSearchField.isPresent()).to.be.eventually.true;
