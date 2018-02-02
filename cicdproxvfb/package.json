@@ -49,7 +49,8 @@
     "mkdirp": "^0.5.1",
     "ts-node": "^3.3.0",
     "typescript": "^2.3.4",
-    "tslint": ""
+    "tslint": "",
+    "cucumber-junit": ""
   },
   "dependencies": {},
   "repository": {
