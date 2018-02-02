@@ -3,19 +3,9 @@
     "description": "Successfully navigating to the Protractor home page.",
     "assertions": [
       {
-        "passed": true
-      },
-      {
-        "passed": true
-      },
-      {
-        "passed": true
-      },
-      {
-        "passed": true
-      },
-      {
-        "passed": true
+        "passed": false,
+        "errorMsg": "expected true to be false",
+        "stackTrace": "AssertionError: expected true to be false"
       },
       {
         "passed": true
@@ -23,10 +13,10 @@
     ],
     "events": [
       {
-        "emitterEvent": "testPass",
+        "emitterEvent": "testFail",
         "name": "Given User navigates to the Google page",
         "category": "Navigating to the Protractor Home page: Successfully navigating to the Protractor home page.",
-        "durationMillis": 88,
+        "durationMillis": 74,
         "sourceLocation": {
           "filePath": "/Users/ctmadmin/Desktop/cicdprotest/cicdproxvfb/testProXvFb/src/typeScript/test/features/GoogleSearch.feature",
           "line": 9,
@@ -41,7 +31,6 @@
         "emitterEvent": "testPass",
         "name": "When User types protractor in the search field",
         "category": "Navigating to the Protractor Home page: Successfully navigating to the Protractor home page.",
-        "durationMillis": 132,
         "sourceLocation": {
           "filePath": "/Users/ctmadmin/Desktop/cicdprotest/cicdproxvfb/testProXvFb/src/typeScript/test/features/GoogleSearch.feature",
           "line": 10,
@@ -56,7 +45,6 @@
         "emitterEvent": "testPass",
         "name": "And clicks on the search button",
         "category": "Navigating to the Protractor Home page: Successfully navigating to the Protractor home page.",
-        "durationMillis": 866,
         "sourceLocation": {
           "filePath": "/Users/ctmadmin/Desktop/cicdprotest/cicdproxvfb/testProXvFb/src/typeScript/test/features/GoogleSearch.feature",
           "line": 11,
@@ -71,7 +59,6 @@
         "emitterEvent": "testPass",
         "name": "And clicks on the www.protractortest.org link",
         "category": "Navigating to the Protractor Home page: Successfully navigating to the Protractor home page.",
-        "durationMillis": 339,
         "sourceLocation": {
           "filePath": "/Users/ctmadmin/Desktop/cicdprotest/cicdproxvfb/testProXvFb/src/typeScript/test/features/GoogleSearch.feature",
           "line": 12,
@@ -86,7 +73,6 @@
         "emitterEvent": "testPass",
         "name": "Then the user should be navigated to the protractor home page",
         "category": "Navigating to the Protractor Home page: Successfully navigating to the Protractor home page.",
-        "durationMillis": 1175,
         "sourceLocation": {
           "filePath": "/Users/ctmadmin/Desktop/cicdprotest/cicdproxvfb/testProXvFb/src/typeScript/test/features/GoogleSearch.feature",
           "line": 13,
@@ -101,7 +87,7 @@
         "emitterEvent": "testPass",
         "name": "After",
         "category": "Navigating to the Protractor Home page: Successfully navigating to the Protractor home page.",
-        "durationMillis": 1,
+        "durationMillis": 505,
         "sourceLocation": {
           "filePath": "/Users/ctmadmin/Desktop/cicdprotest/cicdproxvfb/testProXvFb/src/typeScript/test/features/GoogleSearch.feature",
           "column": 1
@@ -112,6 +98,6 @@
         }
       }
     ],
-    "duration": 2601
+    "duration": null
   }
 ]

@@ -24,7 +24,8 @@
     "webdriver-update": "webdriver-manager update",
     "webdriver-start": "webdriver-manager start",
     "se-server-start": "selenium-standalone start",
-    "postinstall": "npm run webdriver-update"
+    "postinstall": "npm run webdriver-update",
+    "catXml": "cat ./reports/json/cucumber_report.json | node ./node_modules/cucumber-junit/bin/cucumber-junit > ./reports/cucumberJunit.xml"
   },
   "author": "Ankur Saxena",
   "devDependencies": {

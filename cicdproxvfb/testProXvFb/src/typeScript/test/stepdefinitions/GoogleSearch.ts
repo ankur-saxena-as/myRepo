@@ -24,7 +24,7 @@ defineSupportCode(async ({Given, When, Then})=>{
 
     Given(`User navigates to the Google page`, async()=>{
         await expect(generalComponentFunc.waitForElementToBeClickable(googleObjects.GoogleSearchField)).to.be.eventually.fulfilled;
-        await expect(googleObjects.GoogleSearchField.isPresent()).to.be.eventually.true;
+        await expect(googleObjects.GoogleSearchField.isPresent()).to.be.eventually.false;
     });
 
     When(`User types protractor in the search field`, async()=>{
