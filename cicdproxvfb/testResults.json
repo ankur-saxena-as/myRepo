@@ -16,7 +16,7 @@
         "emitterEvent": "testFail",
         "name": "Given User navigates to the Google page",
         "category": "Navigating to the Protractor Home page: Successfully navigating to the Protractor home page.",
-        "durationMillis": 74,
+        "durationMillis": 87,
         "sourceLocation": {
           "filePath": "/Users/ctmadmin/Desktop/cicdprotest/cicdproxvfb/testProXvFb/src/typeScript/test/features/GoogleSearch.feature",
           "line": 9,
@@ -87,7 +87,7 @@
         "emitterEvent": "testPass",
         "name": "After",
         "category": "Navigating to the Protractor Home page: Successfully navigating to the Protractor home page.",
-        "durationMillis": 505,
+        "durationMillis": 479,
         "sourceLocation": {
           "filePath": "/Users/ctmadmin/Desktop/cicdprotest/cicdproxvfb/testProXvFb/src/typeScript/test/features/GoogleSearch.feature",
           "column": 1
