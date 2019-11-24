@@ -58,7 +58,8 @@ defineSupportCode(function ({ registerHandler, registerListener, After, setDefau
         theme: "bootstrap",
         jsonFile: targetJson,
         output: htmlReports + "/cucumber_reporter.html",
-        reportSuiteAsScenarios: true
+        reportSuiteAsScenarios: true,
+        launchReport: true
     };
 
     let logFn = string => {

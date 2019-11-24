@@ -354,12 +354,12 @@ export class GeneralComponent {
         // TODO: Develop the function to get the name of the called method and print the name of method along with the error.
         if(Function!=null){
             // await console.log(Function.name+": "+message);
-            await puts(Function.name+": "+message);
+            await console.log(Function.name+": "+message);
             
             }
         else{
             // await console.log(message);
-            await puts(message);
+            await console.log(message);
         }
     }
 

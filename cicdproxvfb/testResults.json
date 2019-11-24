@@ -3,9 +3,22 @@
     "description": "Successfully navigating to the Protractor home page.",
     "assertions": [
       {
-        "passed": false,
-        "errorMsg": "expected true to be false",
-        "stackTrace": "AssertionError: expected true to be false"
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
       },
       {
         "passed": true
@@ -13,12 +26,12 @@
     ],
     "events": [
       {
-        "emitterEvent": "testFail",
+        "emitterEvent": "testPass",
         "name": "Given User navigates to the Google page",
         "category": "Navigating to the Protractor Home page: Successfully navigating to the Protractor home page.",
-        "durationMillis": 87,
+        "durationMillis": 67,
         "sourceLocation": {
-          "filePath": "/Users/ctmadmin/Desktop/cicdprotest/cicdproxvfb/testProXvFb/src/typeScript/test/features/GoogleSearch.feature",
+          "filePath": "/Users/saxenaan/Documents/myRepo/cicdproxvfb/testProXvFb/src/typeScript/test/features/GoogleSearch.feature",
           "line": 9,
           "column": 1
         },
@@ -31,8 +44,9 @@
         "emitterEvent": "testPass",
         "name": "When User types protractor in the search field",
         "category": "Navigating to the Protractor Home page: Successfully navigating to the Protractor home page.",
+        "durationMillis": 175,
         "sourceLocation": {
-          "filePath": "/Users/ctmadmin/Desktop/cicdprotest/cicdproxvfb/testProXvFb/src/typeScript/test/features/GoogleSearch.feature",
+          "filePath": "/Users/saxenaan/Documents/myRepo/cicdproxvfb/testProXvFb/src/typeScript/test/features/GoogleSearch.feature",
           "line": 10,
           "column": 1
         },
@@ -45,8 +59,9 @@
         "emitterEvent": "testPass",
         "name": "And clicks on the search button",
         "category": "Navigating to the Protractor Home page: Successfully navigating to the Protractor home page.",
+        "durationMillis": 2294,
         "sourceLocation": {
-          "filePath": "/Users/ctmadmin/Desktop/cicdprotest/cicdproxvfb/testProXvFb/src/typeScript/test/features/GoogleSearch.feature",
+          "filePath": "/Users/saxenaan/Documents/myRepo/cicdproxvfb/testProXvFb/src/typeScript/test/features/GoogleSearch.feature",
           "line": 11,
           "column": 1
         },
@@ -59,8 +74,9 @@
         "emitterEvent": "testPass",
         "name": "And clicks on the www.protractortest.org link",
         "category": "Navigating to the Protractor Home page: Successfully navigating to the Protractor home page.",
+        "durationMillis": 847,
         "sourceLocation": {
-          "filePath": "/Users/ctmadmin/Desktop/cicdprotest/cicdproxvfb/testProXvFb/src/typeScript/test/features/GoogleSearch.feature",
+          "filePath": "/Users/saxenaan/Documents/myRepo/cicdproxvfb/testProXvFb/src/typeScript/test/features/GoogleSearch.feature",
           "line": 12,
           "column": 1
         },
@@ -73,8 +89,9 @@
         "emitterEvent": "testPass",
         "name": "Then the user should be navigated to the protractor home page",
         "category": "Navigating to the Protractor Home page: Successfully navigating to the Protractor home page.",
+        "durationMillis": 214,
         "sourceLocation": {
-          "filePath": "/Users/ctmadmin/Desktop/cicdprotest/cicdproxvfb/testProXvFb/src/typeScript/test/features/GoogleSearch.feature",
+          "filePath": "/Users/saxenaan/Documents/myRepo/cicdproxvfb/testProXvFb/src/typeScript/test/features/GoogleSearch.feature",
           "line": 13,
           "column": 1
         },
@@ -87,9 +104,23 @@
         "emitterEvent": "testPass",
         "name": "After",
         "category": "Navigating to the Protractor Home page: Successfully navigating to the Protractor home page.",
-        "durationMillis": 479,
+        "durationMillis": 1,
         "sourceLocation": {
-          "filePath": "/Users/ctmadmin/Desktop/cicdprotest/cicdproxvfb/testProXvFb/src/typeScript/test/features/GoogleSearch.feature",
+          "filePath": "/Users/saxenaan/Documents/myRepo/cicdproxvfb/testProXvFb/src/typeScript/test/features/GoogleSearch.feature",
+          "column": 1
+        },
+        "progress": {
+          "step": 0,
+          "steps": 5
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "After",
+        "category": "Navigating to the Protractor Home page: Successfully navigating to the Protractor home page.",
+        "durationMillis": 0,
+        "sourceLocation": {
+          "filePath": "/Users/saxenaan/Documents/myRepo/cicdproxvfb/testProXvFb/src/typeScript/test/features/GoogleSearch.feature",
           "column": 1
         },
         "progress": {
@@ -98,6 +129,125 @@
         }
       }
     ],
-    "duration": null
+    "emitToTestRunner": [
+      [
+        "testPass",
+        {
+          "name": "Given User navigates to the Google page",
+          "category": "Navigating to the Protractor Home page: Successfully navigating to the Protractor home page.",
+          "durationMillis": 67,
+          "sourceLocation": {
+            "filePath": "/Users/saxenaan/Documents/myRepo/cicdproxvfb/testProXvFb/src/typeScript/test/features/GoogleSearch.feature",
+            "line": 9,
+            "column": 1
+          },
+          "progress": {
+            "step": 1,
+            "steps": 5
+          }
+        }
+      ],
+      [
+        "testPass",
+        {
+          "name": "When User types protractor in the search field",
+          "category": "Navigating to the Protractor Home page: Successfully navigating to the Protractor home page.",
+          "durationMillis": 175,
+          "sourceLocation": {
+            "filePath": "/Users/saxenaan/Documents/myRepo/cicdproxvfb/testProXvFb/src/typeScript/test/features/GoogleSearch.feature",
+            "line": 10,
+            "column": 1
+          },
+          "progress": {
+            "step": 2,
+            "steps": 5
+          }
+        }
+      ],
+      [
+        "testPass",
+        {
+          "name": "And clicks on the search button",
+          "category": "Navigating to the Protractor Home page: Successfully navigating to the Protractor home page.",
+          "durationMillis": 2294,
+          "sourceLocation": {
+            "filePath": "/Users/saxenaan/Documents/myRepo/cicdproxvfb/testProXvFb/src/typeScript/test/features/GoogleSearch.feature",
+            "line": 11,
+            "column": 1
+          },
+          "progress": {
+            "step": 3,
+            "steps": 5
+          }
+        }
+      ],
+      [
+        "testPass",
+        {
+          "name": "And clicks on the www.protractortest.org link",
+          "category": "Navigating to the Protractor Home page: Successfully navigating to the Protractor home page.",
+          "durationMillis": 847,
+          "sourceLocation": {
+            "filePath": "/Users/saxenaan/Documents/myRepo/cicdproxvfb/testProXvFb/src/typeScript/test/features/GoogleSearch.feature",
+            "line": 12,
+            "column": 1
+          },
+          "progress": {
+            "step": 4,
+            "steps": 5
+          }
+        }
+      ],
+      [
+        "testPass",
+        {
+          "name": "Then the user should be navigated to the protractor home page",
+          "category": "Navigating to the Protractor Home page: Successfully navigating to the Protractor home page.",
+          "durationMillis": 214,
+          "sourceLocation": {
+            "filePath": "/Users/saxenaan/Documents/myRepo/cicdproxvfb/testProXvFb/src/typeScript/test/features/GoogleSearch.feature",
+            "line": 13,
+            "column": 1
+          },
+          "progress": {
+            "step": 5,
+            "steps": 5
+          }
+        }
+      ],
+      [
+        "testPass",
+        {
+          "name": "After",
+          "category": "Navigating to the Protractor Home page: Successfully navigating to the Protractor home page.",
+          "durationMillis": 1,
+          "sourceLocation": {
+            "filePath": "/Users/saxenaan/Documents/myRepo/cicdproxvfb/testProXvFb/src/typeScript/test/features/GoogleSearch.feature",
+            "column": 1
+          },
+          "progress": {
+            "step": 0,
+            "steps": 5
+          }
+        }
+      ],
+      [
+        "testPass",
+        {
+          "name": "After",
+          "category": "Navigating to the Protractor Home page: Successfully navigating to the Protractor home page.",
+          "durationMillis": 0,
+          "sourceLocation": {
+            "filePath": "/Users/saxenaan/Documents/myRepo/cicdproxvfb/testProXvFb/src/typeScript/test/features/GoogleSearch.feature",
+            "column": 1
+          },
+          "progress": {
+            "step": 0,
+            "steps": 5
+          }
+        }
+      ]
+    ],
+    "duration": 3598
   }
 ]
